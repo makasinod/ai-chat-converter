@@ -1,5 +1,5 @@
-# chat-gpt-converter
-chat-gpt-converter is a utility for converting ChatGPT/OpenAI chat JSON files into .docx and .txt formats. It supports both single-file and batch folder processing.
+# ai-chat-converter
+ai-chat-converter is a utility for converting ChatGPT/OpenAI chat JSON files into .docx and .txt formats. It supports both single-file and batch folder processing.
 
 ## Features
 - Supports ChatGPT Export and OpenAI API JSON formats.
@@ -12,7 +12,7 @@ Clone the repository:
 bash
 ```
 git clone <YOUR_REPOSITORY_URL>
-cd chat-gpt-converter
+cd ai-chat-converter
 ```
 
 Install dependencies using uv:
@@ -44,7 +44,7 @@ uv sync
 
 ## Project Structure
 
-    chat-gpt-converter/
+    ai-chat-converter/
     ├── inputs/           # Input JSON files
     ├── outputs/          # Output DOCX and TXT files
     ├── main.py           # Main script
